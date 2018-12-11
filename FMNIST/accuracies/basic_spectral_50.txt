@@ -1,0 +1,15 @@
+{'aug_epoch': 50,
+ 'augment': 6000,
+ 'augmentor': 'spectral',
+ 'batch': 100,
+ 'epochs': 10,
+ 'eval': 1,
+ 'train': 0,
+ 'type': 'basic'}
+Model name: model=basic_cnn_epochs=10_augmented=6000_augmentor=spectral_aug_epoch=50
+Loaded from checkpoints/model=spectral_conditional_nonsaturating_gan_epochs=50/model-50.pt
+Loaded from checkpoints/model=basic_cnn_epochs=10_augmented=6000_augmentor=spectral_aug_epoch=50/model-10.pt
+********************************************************************************
+CLASSIFICATION EVALUATION ON TEST SET
+********************************************************************************
+Accuracy: 0.8812999725341797

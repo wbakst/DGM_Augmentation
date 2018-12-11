@@ -1,0 +1,15 @@
+{'aug_epoch': 30,
+ 'augment': 2000,
+ 'augmentor': 'wgan',
+ 'batch': 100,
+ 'epochs': 10,
+ 'eval': 1,
+ 'train': 0,
+ 'type': 'basic'}
+Model name: model=basic_cnn_epochs=10_augmented=2000_augmentor=wgan_aug_epoch=30
+Loaded from checkpoints/model=standard_conditional_wasserstein_gp_gan_epochs=50/model-30.pt
+Loaded from checkpoints/model=basic_cnn_epochs=10_augmented=2000_augmentor=wgan_aug_epoch=30/model-10.pt
+********************************************************************************
+CLASSIFICATION EVALUATION ON TEST SET
+********************************************************************************
+Accuracy: 0.8797000050544739

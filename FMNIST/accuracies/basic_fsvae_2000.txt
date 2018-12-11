@@ -1,0 +1,15 @@
+{'aug_epoch': 1,
+ 'augment': 2000,
+ 'augmentor': 'fsvae',
+ 'batch': 100,
+ 'epochs': 10,
+ 'eval': 1,
+ 'train': 0,
+ 'type': 'basic'}
+Model name: model=basic_cnn_epochs=10_augmented=2000_augmentor=fsvae_aug_epoch=1
+Loaded from checkpoints/model=fsvae/model-1000000.pt
+Loaded from checkpoints/model=basic_cnn_epochs=10_augmented=2000_augmentor=fsvae_aug_epoch=1/model-10.pt
+********************************************************************************
+CLASSIFICATION EVALUATION ON TEST SET
+********************************************************************************
+Accuracy: 0.8848999738693237

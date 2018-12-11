@@ -1,0 +1,14 @@
+{'aug_epoch': 50,
+ 'augment': 0,
+ 'augmentor': 'fsvae',
+ 'batch': 100,
+ 'epochs': 10,
+ 'eval': 1,
+ 'train': 0,
+ 'type': 'advanced'}
+Model name: model=advanced_cnn_epochs=10
+Loaded from checkpoints/model=advanced_cnn_epochs=10/model-10.pt
+********************************************************************************
+CLASSIFICATION EVALUATION ON TEST SET
+********************************************************************************
+Accuracy: 0.9199000000953674
